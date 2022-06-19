@@ -1,0 +1,29 @@
+.todolist__container{
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: translate3d(-100%, 0,0);
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: none;
+    transition: opacity 300ms ease-out;
+}
+
+.fade-leave {
+    opacity: 1;
+    transform: translate3d(0, 100%,0);
+}
+
+.fade-leave-active {
+    opacity: 0;
+    transform: none;
+    transition: opacity 300ms ease-out;
+}
+

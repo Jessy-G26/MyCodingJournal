@@ -1,0 +1,7 @@
+.btn-custom {
+    background-color: hsl(191, 48%, 76%)!important;
+}
+
+.btn-custom:hover {
+    background-color: hsla(191, 48%, 76%, 0.7)!important;
+}
